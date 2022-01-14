@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Главная</router-link> |
-      <router-link to="/about">О проекте</router-link> |
-      <router-link to="/contacts">Контакты</router-link>
+      <router-link to="/off">Off</router-link> |
+      <router-link to="/on">On</router-link>
     </div>
     <router-view/>
   </div>
@@ -16,6 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: #000000;
 }
 
 #nav {
